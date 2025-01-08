@@ -3,7 +3,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 }
 
 @font-face {
@@ -67,7 +67,7 @@ body {
 
 .top {
     background-color: black;
-    background-image: radial-gradient(rgba(0, 150, 0, 0.75), black 120%);
+    background-image: radial-gradient(#009600bf, black 120%);
     height: 100%;
     width: 100%;
     margin: 0;
@@ -96,6 +96,7 @@ body::after {
 pre {
     margin: 0;
     width: 100%;
+    height: 100%;
 }
 
 .toptext {
@@ -125,30 +126,195 @@ pre {
     }
 }
 
+
 .thead {
-    max-width: 1300px;
-    padding: 4rem 0 4rem 0;
+    max-width: 1600px;
     font: 1.3rem Inconsolata,
         monospace;
     font-size: 1.5rem;
-    margin: 0 auto 0 10rem;
+    margin: 0 auto 0 auto;
     display: flex;
 }
 
+.content {
+    padding: 0 0 4rem 0;
+}
+
+.thead h2 {
+    padding: 2rem 4rem 2rem 4rem;
+}
+
 .topbody {
-    max-width: 1300px;
-    padding: 4rem 0 4rem 0;
+    max-width: 1600px;
+    padding: 0 0 4rem 0;
     font: 1.3rem Inconsolata,
         monospace;
     font-size: 1.5rem;
-    margin: 0 auto 0 10rem;
+    margin: 0 auto 0 auto;
     display: flex;
 }
 
 .tbodytxt {
+    padding: 2rem 4rem 2rem 4rem;
     flex: 50%
 }
 
 .tbodyimg {
+    padding: 2rem 4rem 2rem 4rem;
     flex: 50%;
+    margin: auto 0 auto 0;
+}
+
+.gradient {
+    background-color: #009600;
+    background-image: linear-gradient(#002600, #ffffff);
+    height: 12.5rem;
+}
+
+.body {
+    max-width: 1600px;
+    font: 1.3rem Inconsolata,
+        monospace;
+    font-size: 1.5rem;
+    margin: 0 auto 0 auto;
+}
+
+.applecont {
+    background-color: white;
+    color: black;
+}
+
+.apple {
+    max-width: 1600px;
+    padding: 4rem 0 4rem 0;
+    font: 1.3rem Inconsolata,
+        monospace;
+    font-size: 1.5rem;
+    margin: 0 auto 0 auto;
+}
+
+.mac {
+    padding: 2rem 4rem 2rem 4rem;
+    margin: auto 0 auto 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.appletxt1 {
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.appletxt2 {
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex: 50%;
+}
+
+.tower {
+    padding: 2rem 4rem 2rem 4rem;
+    flex: 50%;
+    margin: auto 0 auto 0;
+}
+
+.appletxt3 {
+    padding: 2rem 4rem 2rem 4rem;
+    border-bottom: 4px solid #000000;
+}
+
+.body1 {
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.dither {
+    padding: 2rem 4rem 2rem 4rem;
+    flex: 50%;
+}
+
+.body2 {
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+}
+
+.tbodytxt {
+    flex: 50%;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.body3 {
+    padding: 2rem 4rem 2rem 4rem;
+    border-bottom: 4px solid #000000;
+}
+
+.pin {
+    max-width: 1600px;
+    padding: 2rem 4rem 2rem 4rem;
+    font: 1.3rem Inconsolata,
+        monospace;
+    font-size: 1.5rem;
+    margin: 0 auto 0 auto;
+}
+
+.images {
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+.pinmg1 {
+    flex: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.pinmg2 {
+    flex: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.conc {
+    max-width: 1600px;
+    padding: 2rem 4rem 2rem 4rem;
+    font: 1.3rem Inconsolata,
+        monospace;
+    font-size: 1.5rem;
+    margin: 0 auto 0 auto;
+}
+
+.conc p {
+    padding: 2rem 4rem 2rem 4rem;
+    border-top: 4px solid #000000;
+}
+
+.bib {
+    max-width: 1600px;
+    padding: 2rem 4rem 2rem 4rem;
+    font: 1.3rem Inconsolata,
+        monospace;
+    font-size: 1rem;
+    margin: 0 auto 0 auto;
+}
+
+.bib p {
+    padding: 2rem 4rem 2rem 4rem;
+    border-top: 4px solid #000000;
+}
+
+.footer {
+    background-image: url(assets/susaniscool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    font: 1.3rem Inconsolata,
+        monospace;
+    font-size: 1.5rem;
+    z-index: -1;
+    text-align: left center;
+}
+
+.foottext {
+    text-align: left center;
+    z-index: 1;
 }
